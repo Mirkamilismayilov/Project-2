@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+     background-color: white;
+}
+.Hero{
+width: 100%;
+/* height: 300vh; */
+
+}
+nav{
+    background-color: rgb(0, 187, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+nav .Logo i{
+font-size: 40px;
+margin-left: 15px;
+}
+nav .Logo i:hover{
+
+}
+nav ul li{
+list-style-type: none;
+display: inline-block;
+padding: 10px 20px;
+transition: background 1s;
+}
+nav ul li:hover{
+    background-color: rgb(255, 255, 0);
+    
+}
+nav ul li a{
+text-decoration: none;
+padding-top: 50px;
+color: black;
+font-weight: bold;
+
+}
+button{
+    border: none;
+    padding: 15px;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: bold;
+}
+button:hover{
+    background: rgb(192, 192, 248);
+}
+.About img{
+    float: right;
+    width: 40%;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.About p{
+text-align: justify;
+font-size: 20px;
+margin: 10px;
+text-indent: 28px;
+line-height: 40px;
+
+}
+/* Footer */
+.foter{
+    height: 40vh;
+    background-color:rgb(0, 187, 255) ;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo .fa-solid{
+    display: inline-block;
+font-size: 80px;
+margin: 10px;
+}
+.logo p{
+    text-align: justify;
+    display: inline-block;
+}
+.explor p{
+font-size: 25px;
+font-weight: bold;
+}
+.explor ul li{
+list-style-type: none;
+
+}
+.explor ul li a{
+text-decoration: none;
+color: black;
+display: block;
+padding: 5%;
+transition: padding 1s, background 1s;
+
+}
+.explor ul li a:hover{
+    background-color:rgb(255, 255, 0) ;
+    padding: 9px;
+}
+.need p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.need ul li{
+    list-style-type: none;
+}
+.need ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5%;
+    transition: padding 1s, background 1s;
+}
+.need ul li a:hover{
+    background-color:rgb(255, 255, 0) ;
+    padding: 9px;
+}
+.tik p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.tik ul li{
+    list-style-type: none;
+}
+.tik ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5%;
+    transition: padding 1s, background 1s;
+}
+.tik ul li a:hover{
+    background-color:rgb(255, 255, 0) ;
+    padding: 9px;
+}
+.icons{
+    
+}
+.icons .fa-brands{
+font-size: 50px;
+padding: 17px;
+transition: padding 1s, background 1s;
+
+}
+.icons .fa-brands:hover{
+  
+   background: yellow;
+   padding: 20px;
+}
+
